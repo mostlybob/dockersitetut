@@ -1,0 +1,9 @@
+https://docs.docker.com/engine/examples/postgresql_service/
+
+docker ps -a
+- shows all the images
+
+docker run --rm -P --name pg_test eg_postgresql
+
+docker run --rm -P eg_postgresql
+- if it's already been built/run

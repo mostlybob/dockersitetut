@@ -1,0 +1,3 @@
+The instructions at https://docs.docker.com/userguide/usingdocker/ don't seem to work for me, so after a bit of poking around on teh Hub, I found the Github repo for the example being used and copied the Dockerfile. What a pain.
+
+
