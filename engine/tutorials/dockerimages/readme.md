@@ -94,6 +94,8 @@ bash: gem2.0: command not found
 
 so I'm skipping working with the prepackaged container and moving to building an image from a Dockerfile.
 
+Since a later LTS came out, I'm going to use 16.04 instead of 14.04.
+
 
 
 
