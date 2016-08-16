@@ -8,3 +8,11 @@ I spent a lot of time poking around trying to understand the relationship betwee
 I'm still getting my head around some of the command line switches, but `docker <command> --help` is usually just a few keystrokes away. :-)
 
 I still haven't quite found a way to list and manage the containers from a command prompt. I'm sure it's there; I just haven't found it.
+
+And no sooner do I say that when this pops up, right there the docs:
+
+``` bash
+$ docker volume ls
+```
+
+The `-f dangling=true` switch will show volumes that aren't mounted to any containers. It would be nice to get some visibility into which containers are mounted to which volumes.
