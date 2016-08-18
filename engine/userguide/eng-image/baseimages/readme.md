@@ -27,5 +27,13 @@ CMD ["/hello"]
 
 Well, that didn't work either - same error. Hm. I'm sure I'm missing something pretty basic.
 
+Getting there. The directive `COPY hello /` or `ADD hello /` relied on a binary blob named `hello` being present. I got that from the repo mentioned above and added that and the image built, but trying to run it gets an error:
+
+```
+docker: Error response from daemon: oci runtime error: exec: "/hello": permission denied.
+```
+
+so we're still seeing a permissions issue.
+
 
 -----
