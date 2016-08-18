@@ -35,5 +35,7 @@ docker: Error response from daemon: oci runtime error: exec: "/hello": permissio
 
 so we're still seeing a permissions issue.
 
+The __More Resources__ section points at the [command reference](https://docs.docker.com/engine/reference/builder/), which looks good, but a bit overwhelming still. I think I'll take on the [best practices](https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/) next.
+
 
 -----
