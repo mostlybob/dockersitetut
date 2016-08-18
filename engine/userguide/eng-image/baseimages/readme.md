@@ -15,6 +15,17 @@ Step 2 : ADD hello /
 lstat hello: no such file or directory
 ```
 
-Maybe look at the repo at https://github.com/docker-library/hello-world for some guidance.
+Maybe look at the repo at https://github.com/docker-library/hello-world for some guidance. _That did it. There's a mismatch between what's in the docs and what's in the current version of the repo._
+
+From the [repo](https://github.com/docker-library/hello-world/blob/master/hello-world/Dockerfile):
+
+```
+FROM scratch
+COPY hello /
+CMD ["/hello"]
+```
+
+Well, that didn't work either - same error. Hm. I'm sure I'm missing something pretty basic.
+
 
 -----
